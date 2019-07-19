@@ -1,0 +1,10 @@
+ota-property-files=payload_metadata.bin:9840:130731,payload.bin:9840:1269678565,payload_properties.txt:1269688463:156,care_map.txt:782:258,compatibility.zip:1093:8700,metadata:69:665                  
+ota-required-cache=0
+ota-streaming-property-files=payload.bin:9840:1269678565,payload_properties.txt:1269688463:156,care_map.txt:782:258,compatibility.zip:1093:8700,metadata:69:665                    
+ota-type=AB
+post-build=Xiaomi/laurel_sprout_eea/laurel_sprout:9/PKQ1.190416.001/V10.3.4.0.PFQEUXM:user/release-keys
+post-build-incremental=V10.3.4.0.PFQEUXM
+post-sdk-level=28
+post-security-patch-level=2019-06-05
+post-timestamp=1562971659
+pre-device=laurel_sprout
