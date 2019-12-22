@@ -1,0 +1,10 @@
+# init_miui_early_boot rc
+
+on early-boot
+  start miui-early-boot
+
+service miui-early-boot /system/bin/sh /system/etc/init/init.miui.early_boot.sh
+    class main
+    user root
+    oneshot
+    seclabel u:r:shell:s0
