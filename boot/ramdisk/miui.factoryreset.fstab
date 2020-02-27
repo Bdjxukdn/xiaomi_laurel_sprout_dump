@@ -1,0 +1,6 @@
+#device         mount point      fstype        [device2] [length=]
+
+#/dev/block/bootdevice/by-name/system         /system_bak      ext4    ro,barrier=1                                                wait,slotselect
+/dev/block/bootdevice/by-name/vendor         /vendor              ext4    ro,barrier=1                                               wait,slotselect
+#/dev/block/platform/bootdevice/by-name/userdata     /data           ext4    nosuid,nodev,barrier=1,noauto_da_alloc,discard                  wait,check
+/dev/block/bootdevice/by-name/userdata                  /data                     f2fs    noatime,nosuid,nodev,discard,reserve_root=32768,resgid=1065,fsync_mode=nobarrier    latemount,wait,check,fileencrypti on=ice,wrappedkey,quota,reservedsize=128M
